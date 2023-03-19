@@ -11,7 +11,7 @@ const gender = document.querySelector("#gender");
 const img = document.querySelector("#charImg")
 
 
-const getData =async function(){
+const getData = function(){
 
     let characterId = Math.floor(Math.random() * 826)
 
